@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b, c;
+    printf("input a=\n");
+    scanf("%d", &a);
+    printf("input b=\n");
+    scanf("%d", &b);
+    printf("input c=\n");
+    scanf("%d", &c);
+    if (a==-b)
+    printf ("%d", c);
+    else if (a==-c)
+    printf ("%d", b);
+        else if (c==-b)
+    printf ("%d", a);
+    else printf ("no");
+    return 0;
+}
